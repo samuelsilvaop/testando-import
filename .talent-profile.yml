@@ -2,31 +2,32 @@
 # Coloque este arquivo na raiz de qualquer repositório público.
 # A Talentyx vai ler e sincronizar seu perfil automaticamente.
 
-name: Seu Nome Completo
-title: Desenvolvedor Full Stack / DevOps Engineer
-location: "São Paulo, SP, Brasil"
+name: Samuel Moreira da Silva
+title: DevOps Engineer
+location: "Ouro Preto, MG, Brasil"
 
 work_model:
   - remoto
   - hibrido
+  - presencial
 
 # Valores aceitos: estagiario, junior, pleno, senior, especialista, lideranca
-seniority: senior
+seniority: pleno
 
-salary_min_brl: 10000
-salary_max_brl: 15000
+salary_min_brl: 8000
+salary_max_brl: 12000
 
 summary: >
   Breve descrição profissional com experiências e objetivos.
   Pode ter múltiplas linhas — use indentação de 2 espaços.
 
 skills:
-  - TypeScript
+  - Python
   - React
   - Node.js
   - Docker
   - AWS
 
 links:
-  linkedin: https://linkedin.com/in/seu-usuario
-  portfolio: https://seu-portfolio.dev
+  linkedin: https://www.linkedin.com/in/samuel-silva
+  portfolio: https://samuelsilvaop.github.io/perfil/
