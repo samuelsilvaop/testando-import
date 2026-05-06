@@ -2,32 +2,142 @@
 # Coloque este arquivo na raiz de qualquer repositório público.
 # A Talentyx vai ler e sincronizar seu perfil automaticamente.
 
+# ── Dados pessoais ──────────────────────────────────────────────────────
 name: Samuel Moreira da Silva
-title: DevOps Engineer
-location: "Ouro Preto, MG, Brasil"
+title: Senior DevOps / SRE / Cloud Engineer
+phone: "(31)987654321"  # preencher se quiser
+
+location:
+  city: Ouro Preto
+  state: MG
+  country: Brasil
+  cep: "35402-309"  # preencher se quiser
+
+# ── Presença online ─────────────────────────────────────────────────────
+links:
+  linkedin: https://www.linkedin.com/in/samuel-silva
+  portfolio: https://kadima.cloud
+
+# ── Preferências de trabalho ────────────────────────────────────────────
+seniority: senior
 
 work_model:
   - remoto
   - hibrido
-  - presencial
 
-# Valores aceitos: estagiario, junior, pleno, senior, especialista, lideranca
-seniority: pleno
+salary_min_brl: 12000   # ajustar conforme estratégia CLT vs PJ
+salary_max_brl: 20000
 
-salary_min_brl: 8000
-salary_max_brl: 12000
-
+# ── Resumo profissional ─────────────────────────────────────────────────
 summary: >
-  Breve descrição profissional com experiências e objetivos.
-  Pode ter múltiplas linhas — use indentação de 2 espaços.
+  Engenheiro DevOps/SRE/Cloud com mais de 10 anos de experiência em infraestrutura
+  cloud-native, com foco em GCP, Kubernetes, Terraform e FinOps. Histórico sólido
+  em automação de plataformas de alta escala, observabilidade (Prometheus, Grafana,
+  Cloud Monitoring), CI/CD (GitHub Actions, ArgoCD) e redução de custos em nuvem.
+  Fundador da Kadima Cloud, consultoria especializada em Cloud e Cybersegurança.
+  Busca posições Sênior em DevOps, SRE, Cloud Engineering ou FinOps, preferencialmente
+  remotas ou híbridas no Brasil ou em Portugal.
 
+# ── Skills técnicas ─────────────────────────────────────────────────────
 skills:
-  - Python
-  - React
-  - Node.js
-  - Docker
-  - AWS
+  - nome: Google Cloud Platform (GCP)
+    nivel: especialista
+  - nome: Kubernetes / GKE
+    nivel: especialista
+  - nome: Terraform
+    nivel: especialista
+  - nome: GitHub Actions
+    nivel: especialista
+  - nome: ArgoCD
+    nivel: avancado
+  - nome: Prometheus / Grafana
+    nivel: avancado
+  - nome: Python / FastAPI
+    nivel: avancado
+  - nome: Docker
+    nivel: avancado
+  - nome: FinOps
+    nivel: avancado
+  - nome: Cloud Run
+    nivel: avancado
+  - nome: BigQuery
+    nivel: avancado
+  - nome: IAM / Security
+    nivel: avancado
+  - nome: Helm
+    nivel: avancado
+  - nome: Linux
+    nivel: especialista
+  - nome: Bash / Shell Script
+    nivel: avancado
+  - nome: Slack SDK
+    nivel: intermediario
+  - nome: ServiceNow
+    nivel: intermediario
+  - nome: Azure
+    nivel: basico
 
-links:
-  linkedin: https://www.linkedin.com/in/samuel-silva
-  portfolio: https://samuelsilvaop.github.io/perfil/
+# ── Experiência profissional ────────────────────────────────────────────
+experience:
+  - cargo: Fundador & Cloud Engineer
+    empresa: Kadima Cloud
+    modelo_trabalho: remoto
+    data_inicio: "2024-10"
+    data_fim: ""
+    atual: true
+    descricao: >
+      Fundação e operação de consultoria especializada em Cloud Computing e
+      Cybersegurança. Desenvolvimento dos produtos Orchestrix e Scantrix.
+      Automação de custos em GCP com Cloud Functions e Pub/Sub (circuit breaker).
+      Produção de conteúdo técnico sobre ransomware, Zero Trust, FinOps e Kubernetes.
+
+  - cargo: Cloud FinOps Analyst
+    empresa: Blip
+    modelo_trabalho: remoto
+    data_inicio: "2025-08"
+    data_fim: "2026-02"
+    atual: false
+    descricao: >
+      Análise e otimização de custos em nuvem (GCP). Implementação de governança
+      de labels, rightsizing de workloads Kubernetes e construção de dashboards
+      de FinOps com Grafana e BigQuery.
+
+  - cargo: SRE Analyst
+    empresa: Blip
+    modelo_trabalho: remoto
+    data_inicio: "2022-10"
+    data_fim: "2025-06"
+    atual: false
+    descricao: >
+      Engenharia de confiabilidade de plataformas SaaS de alta escala. Desenvolvimento
+      do Sentinel Bot (FastAPI + GCP + Slack SDK + ServiceNow + Google Admin SDK,
+      500+ usuários Slack). Desenvolvimento do Translator Bot (Python + Cloud Run,
+      1.500+ usuários ativos). Observabilidade com Prometheus, Grafana e Cloud Monitoring.
+      CI/CD com GitHub Actions e ArgoCD.
+
+  - cargo: Cloud Engineer II
+    empresa: Blip (ex-Stilingue)
+    modelo_trabalho: remoto
+    data_inicio: "2020-12"
+    data_fim: "2022-10"
+    atual: false
+    descricao: >
+      Infraestrutura cloud-native em GCP. Gestão de clusters GKE, automação com
+      Terraform, pipelines de CI/CD e suporte a times de produto em ambiente
+      de alta demanda.
+
+# ── Formação acadêmica ──────────────────────────────────────────────────
+education:
+  - instituicao: Universidade Federal de Ouro Preto (UFOP)
+    curso: Engenharia de Controle e Automação
+    grau: graduacao
+    data_inicio: ""
+    data_fim: ""
+    cursando: false
+
+  - instituicao: Instituto Federal de Minas Gerais (IFMG)
+    curso: Técnico em Automação Industrial
+    grau: tecnico
+    data_inicio: ""
+    data_fim: ""
+    cursando: false
