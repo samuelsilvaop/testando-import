@@ -1,0 +1,32 @@
+# .talent-profile.yml — Career as Code
+# Coloque este arquivo na raiz de qualquer repositório público.
+# A Talentyx vai ler e sincronizar seu perfil automaticamente.
+
+name: Seu Nome Completo
+title: Desenvolvedor Full Stack / DevOps Engineer
+location: "São Paulo, SP, Brasil"
+
+work_model:
+  - remoto
+  - hibrido
+
+# Valores aceitos: estagiario, junior, pleno, senior, especialista, lideranca
+seniority: senior
+
+salary_min_brl: 10000
+salary_max_brl: 15000
+
+summary: >
+  Breve descrição profissional com experiências e objetivos.
+  Pode ter múltiplas linhas — use indentação de 2 espaços.
+
+skills:
+  - TypeScript
+  - React
+  - Node.js
+  - Docker
+  - AWS
+
+links:
+  linkedin: https://linkedin.com/in/seu-usuario
+  portfolio: https://seu-portfolio.dev
